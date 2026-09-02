@@ -1,0 +1,36 @@
+1. Django es un framework de desarrollo web escrito en Python. 
+Se utiliza para crear páginas y aplicaciones web de manera rápida, 
+organizada y segura, ya que proporciona herramientas para trabajar con bases de datos, 
+usuarios, URLs, formularios y otros elementos necesarios para una aplicación web.
+
+2. MTV significa Model, Template y View. El Model se encarga de manejar los datos y 
+la comunicación con la base de datos, el Template se encarga de mostrar la 
+información al usuario mediante HTML y la View procesa las solicitudes 
+y decide qué información devolver. Es similar al patrón MVC, donde Model también representa los datos, 
+pero en Django el Template cumple una función parecida a la View de MVC, mientras que la 
+View de Django cumple gran parte de la función que tendría el Controller.
+
+3. Una app en Django es una parte de un proyecto que se encarga de una funcionalidad determinada. 
+Por ejemplo, en una página de una tienda podríamos tener una app para los productos, otra para 
+los usuarios y otra para las ventas. Un proyecto puede tener varias apps, lo que permite mantener 
+el código organizado.
+
+4. El flujo request-response es el proceso mediante el cual Django recibe una solicitud del usuario 
+y devuelve una respuesta. Cuando un usuario entra a una página, el navegador envía un request a Django. 
+Django identifica la URL correspondiente y ejecuta una View, que puede consultar datos mediante los
+Models y utilizar un Template para generar la página. Finalmente, Django devuelve un response al 
+navegador, que muestra el resultado al usuario.
+
+5. ORM significa Object-Relational Mapping y permite trabajar con una base de datos utilizando objetos 
+y código Python en lugar de escribir directamente todas las consultas SQL. En Django, los Models 
+representan las tablas de la base de datos y permiten realizar operaciones como buscar, agregar, 
+modificar o eliminar datos utilizando Python.
+
+6. Los templates son archivos que se utilizan para definir cómo se mostrará la información al usuario. 
+Generalmente contienen HTML, pero también pueden incluir variables y etiquetas propias de Django para 
+mostrar información dinámica. Su objetivo principal es separar la parte visual de la lógica de la 
+aplicación.
+
+7. Django at a glance explica de manera general cómo funciona Django y presenta sus componentes principales.
+Muestra cómo se utilizan los Models para representar los datos, las Views para procesar las solicitudes, 
+las URLs para determinar qué View debe ejecutarse y los Templates para generar la página que verá.
